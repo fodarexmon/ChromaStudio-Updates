@@ -1,0 +1,46 @@
+name: Bug report
+description: Something doesn't work as expected
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report this! The log file makes a huge difference:
+        **Settings → About → Open log folder** (or `%LocalAppData%\ChromaStudio\logs`).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, what happened instead?
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Chroma Studio version
+      placeholder: "1.1.0 (Settings → About)"
+    validations:
+      required: true
+  - type: dropdown
+    id: os
+    attributes:
+      label: Windows version
+      options: [Windows 11, Windows 10, Windows 8.1, Windows 8, Windows 7 SP1]
+    validations:
+      required: true
+  - type: input
+    id: gpu
+    attributes:
+      label: Graphics card and driver version
+      placeholder: "e.g. NVIDIA RTX 5050, driver 591.44"
+  - type: input
+    id: ffmpeg
+    attributes:
+      label: FFmpeg version / source
+      placeholder: "bundled, or e.g. gyan.dev 7.1 full"
+  - type: textarea
+    id: log
+    attributes:
+      label: Log excerpt
+      description: Paste the relevant lines from today's chroma-yyyyMMdd.log
+      render: text
