@@ -31,8 +31,8 @@ Get the newest version from **[Releases → Latest](https://github.com/fodarexmo
 **Requirement:** .NET Framework 4.8 — already built into Windows 10 and 11
 ([free download](https://dotnet.microsoft.com/download/dotnet-framework/net48) for Windows 7 SP1 / 8.1).
 
-Chroma Studio checks this page for new versions and tells you when one is available
-(Settings → Behaviour → *Check for updates*). It never downloads or installs anything by itself.
+Already installed? You don't need to come back here: Chroma Studio tells you when a new version is out and
+updates itself in one click (download, checksum check, silent install, restart).
 
 ## Highlights
 
@@ -78,7 +78,7 @@ packages include an unmodified GPL build of FFmpeg, run as a separate program �
 **التنزيل:** من صفحة [أحدث إصدار](https://github.com/fodarexmon/ChromaStudio-Updates/releases/latest). الملف الموصى به هو `ChromaStudio-x.y.z-setup.exe`، وفيه FFmpeg.
 المتطلب الوحيد ‎.NET Framework 4.8، وهو موجود مسبقاً في Windows 10 و 11.
 
-يتحقق البرنامج من هذه الصفحة ويخبرك عند صدور إصدار جديد، ولا ينزّل أو يثبّت أي شيء بنفسه.
+لو كان البرنامج مثبتاً عندك فلا تحتاج العودة لهذه الصفحة: يخبرك البرنامج بالإصدار الجديد ويحدّث نفسه بنقرة واحدة.
 
 **لو وجدت مشكلة:** [افتح بلاغاً](https://github.com/fodarexmon/ChromaStudio-Updates/issues/new/choose)، وأرفق ملف السجل من الإعدادات ← حول البرنامج ← فتح مجلد السجلات.
 
